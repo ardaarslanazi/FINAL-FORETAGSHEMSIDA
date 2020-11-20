@@ -313,7 +313,7 @@ img{
 
      
    }
-   
+
 .bilden:hover .bildtext {
     opacity: 1;
 }
@@ -378,11 +378,13 @@ img{
 
 }
 .linktext{
-margin-left: -330px;
+margin-left: -290px;
+color: black;
 }
 .linktext2 {
-    margin-left: -115px;
+    margin-left: -125px;
     margin-top:  25px;
+    color: black;
 }
 
 .kategori {
@@ -410,7 +412,7 @@ margin-left: -330px;
 }
 .linktext4 {
     color: black;
-    margin-left: 380px;
+    margin-left: 390px;
     margin-top: -20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
@@ -421,10 +423,17 @@ body {
     
     
 }
+.container:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    opacity: 0.9;
+}
 @media (max-width: 700px) {
     body {
         width: 110%;
         height: 20%;
+        zoom: 0.40;
+
        
         
 
@@ -530,9 +539,10 @@ body {
         
     }
 }
-@media(max-width: 700px) {
+@media(min-width: 2000px) {
     body{
-        zoom: 0.40;
+        zoom: 1.30;
+        
 }
 }
 
